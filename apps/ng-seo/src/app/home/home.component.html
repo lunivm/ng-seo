@@ -1,0 +1,22 @@
+<h2>Resources &amp; Tools</h2>
+<p>Here are some links to help you get started.</p>
+<ul class="resources">
+  <li class="block" *ngFor="let item of items">
+    <a class="resource flex" [href]="item.url">
+      {{item.label}}
+    </a>
+  </li>
+</ul>
+
+<h2>Next Steps</h2>
+<p>Here are some things you can do with Nx.</p>
+<details open>
+  <summary>Add UI library</summary>
+  <pre>
+# Generate UI lib
+ng g @nrwl/angular:lib ui
+
+# Add a component
+ng g @nrwl/angular:component xyz --project ui</pre
+  >
+</details>

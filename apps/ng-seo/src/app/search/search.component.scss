@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 1em;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+
+  a {
+    padding: 10px 1em;
+    display: block;
+  }
+}
